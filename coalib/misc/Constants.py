@@ -111,6 +111,7 @@ language_definitions = os.path.join(coalib_root,
                                     'definitions')
 
 # system_coafile = os.path.join(coalib_root, 'default_coafile')
+system_coafile = ''
 for file_lists in os.listdir(coalib_root):
     for file in file_lists:
         if file == 'default_coafile':

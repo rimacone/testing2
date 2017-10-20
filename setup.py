@@ -13,6 +13,7 @@ from setuptools.command.test import test as TestCommand
 
 from coalib import VERSION, assert_supported_version, get_version
 from coalib.misc.BuildManPage import BuildManPage
+from coalib.misc import Constants
 
 try:
     lc = locale.getlocale()
