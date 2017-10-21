@@ -117,7 +117,7 @@ for file_lists in os.listdir(coalib_root):
         if file == 'default_coafile':
             system_coafile = os.path.join(coalib_root, 'default_coafile')
         else:
-            system_coafile = os.path.join(coalib_root, 'system_coafile')
+            system_coafile = os.path.join(coalib_root, 'base_coafile')
 
 if system_coafile == os.path.join(coalib_root, 'default_coafile'):
     logging.warning('Use of file named default_coafile is deprecated.')
