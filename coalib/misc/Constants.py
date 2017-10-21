@@ -110,7 +110,7 @@ language_definitions = os.path.join(coalib_root,
                                     'languages',
                                     'definitions')
 
- system_coafile = os.path.join(coalib_root, 'system_coafile')
+system_coafile = os.path.join(coalib_root, 'system	_coafile')
 # system_coafile = ''
 # for file_lists in os.listdir(coalib_root):
 #    for file in file_lists:
